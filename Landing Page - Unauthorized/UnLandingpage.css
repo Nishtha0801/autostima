@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.background{
+    height: 100%;
+    width: 60%;
+    position: absolute;
+}
+.background img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 67%;
+}
+.rocket{
+    position: relative;
+    bottom:90%;
+    
+}
+.information{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.info-sub{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 20%; */
+    padding-left: 15%;
+}
+
+
+.navbar{
+    position:absolute;
+    width:100vw;
+    height:85px;
+    left:0px;
+    top:0px;
+    display:flex;
+    flex-direction: row;
+    z-index: 100;
+}
+
+#website-logo{
+    position:absolute;
+    /*width:257px;*/
+    height:80px;
+    left:60px;
+    top:7px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display:inline;
+    margin-right:20px;
+}
+
+.navbar-links{
+    position:absolute;
+    /* width:800px; */
+    height:28px; 
+    left:720px;
+    top:28px;
+}
+.home, .affirmations, .blogs{
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height:28px;
+    width:150px;
+    height:28px;
+    top:28px;
+    left:686px;
+    color:white;
+    text-decoration: none;
+    margin-right: 16px;
+}
+.start-here{
+    background-color:white;
+    border-radius:39px;
+    position:absolute;
+    width:150px;
+    height:45px;
+    right:50px;
+    top:23px; 
+    color:#51B1F7;
+    font-size:20px;
+    border:none;
+}
+.start-here a, .start-here-login a{
+    color:#51B1F7;
+}
+.start-here-login{
+    background-color:white;
+    border-radius:39px;
+    position:absolute;
+    width:150px;
+    height:45px;
+    right:220px;
+    top:23px; 
+    color:#51B1F7;
+    font-size:20px;
+    border:none;
+}
+.unstart{
+    margin-top: 50px;
+}
+.background .rocket{
+    height: 89%;
+}
+
