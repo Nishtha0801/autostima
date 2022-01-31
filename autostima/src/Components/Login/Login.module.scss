@@ -1,0 +1,71 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Assets/bk.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 100px;
+    display: flex;
+    padding-bottom: 0;
+}
+
+.left,
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.left {
+    flex-direction: column;
+    align-items: flex-start;
+
+    input {
+        margin-bottom: 20px;
+        width: 350px;
+        height: 50px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid gainsboro;
+        color: gray;
+        outline: none;
+    }
+    .btn {
+        background: linear-gradient(87.94deg, #d5c8ef -32.81%, #c9b2f7 22.95%, #51b1f7 77.57%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        cursor: pointer;
+        color: white;
+    }
+    .signup{
+        color:gray;
+        margin-top: 15px;
+        span{
+            color: #51B1F7;
+
+        }
+    }
+}
+
+.head {
+    img {
+        width: 120px;
+        margin-bottom: 30px;
+    }
+}
+
+.right {
+    height: 100%;
+    overflow: hidden;
+
+    img {
+        object-fit: contain;
+        height: 100%;
+    }
+}
