@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from '../Assets/logo.png'
 import profile from '../Assets/profile.png'
 import axios from '../../axios.js'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const pages = ['Home', 'Affirmations', 'Blogs'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -55,7 +55,7 @@ const Navbar = () => {
     }).catch(err => {
       console.log(err);
     })
-  }, [])
+  }, [token])
 
 
 
@@ -132,9 +132,34 @@ const Navbar = () => {
               <div style={{ marginRight: "20px", color: "white", fontSize: "large" }}>{user?.name}</div>
               <Avatar alt="Remy Sharp" src={profile} />
             </Box> :
-            <div >
-              <div >Login</div>
-              <div >Signup</div>
+            <div style={{
+              display: "flex"
+
+            }}>
+              <Link to="/login">
+                <div style={{
+                  color: "white",
+                  marginRight: "20px", display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  height: "100%"
+                }}>
+                  Login
+                </div>
+              </Link>
+              <Link to="/signup">
+                <div style={{
+                  color: "#51B1F7",
+                  width: "120px",
+                  height: "40px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  backgroundColor: "white",
+                  borderRadius: "20px",
+                  border: "1px solid #51B1F7"
+                }}>Signup</div>
+              </Link>
             </div>}
         </Toolbar>
       </Container>
