@@ -54,7 +54,7 @@ You can install the app, use and modify it on your system by following the under
 ## Sign up and Log in
 
 <p float="left">
-<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/SignUp.png" width="450px" > <img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Login.png" width="450px" align="right" >
+<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/SignUp.png" width="400px" > <img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Login.png" width="400px" align="right" >
 </p>
 
 <hr>
