@@ -20,19 +20,19 @@ This feature checks the posture of the user in the Affirmation Camera and instan
 ## Speech rehearsal 
 The user can input their speech or any written material through .txt or .doc files and analyse their performance in the camera along with their posture. The lines appear one by one which the user repeats.
 
-## Anyaltics
+## Anyalitcs
 This feature highlights the part of speech where the speaker had a bad posture along with a pie chart that analyses the ratio of good posture to bad posture.
 
 ## Blogs and videos
 Users can read and watch various blogs and videos that would help them to boost their confidence and grow themselves in the field of verbal communication.
 
-## INSTALLATION 
+## Installation
 You can install the app, use and modify it on your system by following the undermentioned steps: 
 1. Clone the repository: ```git clone ```
 2. Install node modules: ```npm install```
 3. Start the server: ```npm start```
 
-## TECH STACK 
+## Tech Stack
 
 1. **Languages:** HTML, CSS, SCSS, javascript, Node.JS
 2. **Frameworks:** React, express
