@@ -1,0 +1,116 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+
+    .head,.camera{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+
+    .details{
+        position: absolute;
+        width: 100%;
+        height: 58%;
+        bottom: 0;
+        left: 0;
+        background-image: url('../Assets/dash.png');
+        background-size: cover;
+        background-position: top;
+        
+        .Dwrapper{
+            position: absolute;
+            bottom: 1vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            & div {
+                font-size: x-large;
+                margin-bottom: 15px;
+            }
+            .speech{
+                color: white;
+            }
+
+            .Cposture{
+                color: green;
+            }
+
+            .Bposture{
+                color: red;
+            }
+
+            .start,.end{
+                color: #51B1F7;
+                background-color: white;
+                width: 120px;
+                height: 40px;
+                border-radius: 10px;
+                justify-content: center;
+                align-items: center;
+                font-size: large;
+                cursor: pointer;
+                display: flex;
+            }
+        }
+
+
+    }
+
+    .popup{
+        position: absolute;
+        z-index: 50;
+        top: 70px;
+        height: calc(100vh - 70px);
+        width: 100%;
+        backdrop-filter: blur(15px);
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .box{
+            width: 600px;
+            height: 250px;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            border: 2px solid gainsboro;
+
+            .drag{
+                width: 100%;
+                height: 150px;
+                border: 2px dotted gray;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                p{
+                    color: gray;
+                    
+                }
+            }
+            .file{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                width: 100%;
+                label{
+                    background: linear-gradient(87.94deg, #D5C8EF -32.81%, #C9B2F7 22.95%, #51B1F7 77.57%);
+                    width: 120px;
+                    height: 40px;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

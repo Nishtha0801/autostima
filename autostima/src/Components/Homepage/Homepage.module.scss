@@ -6,6 +6,7 @@
     background-position: right center;
     padding: 100px;
     display: flex;
+    overflow: hidden;
 }
 
 .left,
@@ -45,6 +46,6 @@
 
     img {
         object-fit: contain;
-        height: 150%;
+        height: 190%;
     }
 }
