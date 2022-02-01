@@ -8,7 +8,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 export default function Chart() {
     let cnt = JSON.parse(localStorage.getItem("cnt"))
     const data = {
-        labels: ['Bad Posture', 'Good Posture'],
+        labels: ['Good Posture', 'Bad Posture'],
         datasets: [
             {
                 data: [cnt?.good, cnt?.bad],

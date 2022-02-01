@@ -22,6 +22,29 @@
             justify-content: center;
             margin-bottom: 20px;
         }
+        .data{
+            overflow: auto;
+            height: 85%;
+        }
+
+        .data {
+            overflow-y: auto;
+          }
+          .data::-webkit-scrollbar {
+            width: 0.4em;
+            height: 0.4em;
+          }
+          .data::-webkit-scrollbar,
+          .data::-webkit-scrollbar-thumb {
+            overflow: visible;
+            border-radius: 4px;
+          }
+          .data::-webkit-scrollbar-thumb {
+            background-color: transparent;
+          }
+          .data:hover::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.2);
+          }
     }
     
     .right {
