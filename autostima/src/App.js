@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Analytics from './Components/Analytics/Analytics';
 import Blog from './Components/Blog/Blog';
 import Dashboard from './Components/Dahsboard/Dashboard';
 import Homepage from './Components/Homepage/Homepage';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/blogs" element={<Blog />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/results" element={<Analytics />} />
 
         </Routes>
       </BrowserRouter>
