@@ -1,5 +1,5 @@
 # autostima
-<a href=""> <img src="./Readme-Assets/logo.png?raw=true" alt="Demo Video" height='300' width='300'/><br>[Watch the Demo on Youtube]() </a><br><br>
+<a href=""> <img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Logo.png" alt="Demo Video" height='300' width='300'/><br>[Watch the Demo on Youtube]() </a><br><br>
 
 # autostima
 _/au·to·stì·ma/_
@@ -46,7 +46,7 @@ You can install the app, use and modify it on your system by following the under
 ## Landing page
 
 <p float="left">
-<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Landing-Page-Authorised" width="400px" > 
+<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Landing-Page-Authorised.png" width="500px" > 
 </p>
 
 <hr>
@@ -54,7 +54,7 @@ You can install the app, use and modify it on your system by following the under
 ## Sign up and Log in
 
 <p float="left">
-<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/SignUp" width="400px" > <img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Login" width="400px" align="right" >
+<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/SignUp.png" width="400px" > <img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Login.png" width="400px" align="right" >
 </p>
 
 <hr>
@@ -62,7 +62,7 @@ You can install the app, use and modify it on your system by following the under
 ## Affirmation camera
 
 <p float="left">
-<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Dashboard-Authorised" width="400px" > 
+<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Dashboard-Authorised.png" width="500px" > 
 </p>
 
 <hr>
@@ -70,7 +70,7 @@ You can install the app, use and modify it on your system by following the under
 ## Analytics
 
 <p float="left">
-<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Blogs-and-videos-Authorised" width="400px" > 
+<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Analytics-Authorised.png" width="500px" > 
 </p>
 
 <hr>
@@ -78,7 +78,14 @@ You can install the app, use and modify it on your system by following the under
 ## Add Speech
 
 <p float="left">
-<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Add-speech-Authorised.png" width="400px" > 
+<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Add-speech-Authorised.png" width="500px" > 
+</p>
+
+<hr>
+
+## Blogs and videos
+<p float="left">
+<img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Blogs-and-videos-Authorised.png" width="500px" > 
 </p>
 
 <hr>
