@@ -1,4 +1,4 @@
-# autostima
+# Autostima
 <a href=""> <img src="https://github.com/Nishtha0801/autostima/blob/main/Readme-Assets/Logo.png" alt="Demo Video" height='300' width='300'/><br>[Watch the Demo on Youtube]() </a><br><br>
 
 # autostima
