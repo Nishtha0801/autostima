@@ -4,17 +4,8 @@ import style from './Homepage.module.scss'
 import tree from '../Assets/tree.png'
 import landing from '../Assets/landing.png'
 import { Link } from 'react-router-dom';
-import { toast } from "react-toastify";
-
-const CustomToastWithMessage = (msg) => {
-    if (typeof msg == "string") {
-      return (
-        <div>
-          {msg}
-        </div>
-      );
-    }
-  };
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
 
 function Homepage() {
     useEffect(() => {
@@ -24,22 +15,15 @@ function Homepage() {
           .then((res) => res.json())
           .then((res) =>{
             const apiData = res;
-            console.log(apiData + "");
+            // console.log(apiData + "");
             if(apiData.length>0){
-                toast.info(
-                    () =>
-                      CustomToastWithMessage(
-                        `Some rguvxjv hbkguftc ffuyyj abcd`
-                      ),
-                    {
-                      theme: "colored",
-                      hideProgressBar: false,
-                      closeButton: true,
-                    }
-                  );
+                // console.log(apiData[parseInt(Math.random()*apiData.length)])
+                toast(apiData[parseInt(Math.random()*apiData.length)].text);
             }
           });
-    });
+
+    },[]);
+
     return <div className={style.wrapper}>
         <div className={style.left}>
             <img src={landing} />
@@ -48,6 +32,17 @@ function Homepage() {
             </Link>
 
         </div>
+        <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={true}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
         <div className={style.right}>
             <img src={tree} />
         </div>
