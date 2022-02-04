@@ -7,6 +7,7 @@ import * as tf from '@tensorflow/tfjs';
 import * as tmPose from '@teachablemachine/pose';
 import { useNavigate } from 'react-router-dom';
 import useSpeechToText from 'react-hook-speech-to-text';
+import Popup from '../Popup/popup';
 function Dashboard() {
   const history = useNavigate()
   const {
@@ -29,6 +30,7 @@ function Dashboard() {
   const camera = useRef();
   const player = useRef();
   const [cnt, setCnt] = useState({})
+  const [popup, setPopup] = useState(true)
   const URL = "https://teachablemachine.withgoogle.com/models/hZpnR1hwj/";
   const videoConstraints = {
     width: 1280,
@@ -140,6 +142,9 @@ function Dashboard() {
 
 
   return <div className={style.wrapper}>
+    {popup ?
+      <Popup closePopup={setPopup} />
+      : null}
     <div className={style.head} >
       <img src={head} />
     </div>
@@ -166,8 +171,8 @@ function Dashboard() {
           :
           <div style={{ display: "flex" }}>
             <div className={style.start} style={{ marginRight: "15px" }} onClick={() => {
-            setStart(true)
-            startSpeechToText();
+              setStart(true)
+              startSpeechToText();
             }}>Start</div>
             <div className={style.start} onClick={() => {
               setFilePopup(true)

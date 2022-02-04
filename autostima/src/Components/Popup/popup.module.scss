@@ -1,0 +1,41 @@
+.wrapper{
+    position: absolute;
+    z-index: 50;
+    top: 70px;
+    height: calc(100vh - 70px);
+    width: 100%;
+    backdrop-filter: blur(15px);
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box{
+        width: 1000px;
+        height: 500px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 50px;
+        border: 2px solid gainsboro;
+
+        img{
+            margin: 20px 0 ;
+        }
+
+        ul{
+            margin-bottom: 50px;
+        }
+        div{
+            background: linear-gradient(87.94deg, #D5C8EF -32.81%, #C9B2F7 22.95%, #51B1F7 77.57%);
+            width: 140px;
+            height: 40px;
+            color: white;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            cursor: pointer;
+        }
+    }
+}
