@@ -7,6 +7,7 @@ import Homepage from './Components/Homepage/Homepage';
 import Login from './Components/Login/Login';
 import Navbar from './Components/Navbar/Navbar';
 import Signup from './Components/Signup/Signup';
+import About from './Components/About/About';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/blogs" element={<Blog />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/results" element={<Analytics />} />
+          <Route path="/about" element={<About />}/>
 
         </Routes>
       </BrowserRouter>
