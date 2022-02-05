@@ -160,7 +160,7 @@ function Dashboard() {
           {(score[1] > score[0]) ?
             <div className={style.Cposture}>Good Posture</div>
             :
-            <div className={style.Bposture}>Bad Posture</div>
+            <div className={style.Bposture}>Bad Posture < br /> <span style={{ fontSize: "small", color: "white" }}>Be confident and back straight </span></div>
           }
         </>
           : null}

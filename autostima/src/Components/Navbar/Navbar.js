@@ -16,7 +16,7 @@ import profile from '../Assets/profile.png'
 import axios from '../../axios.js'
 import { Link, useNavigate } from 'react-router-dom';
 
-const pages = ['Home', 'Affirmations', 'Blogs', 'About'];
+const pages = ['Home', 'Affirmations', 'Blogs', 'About', 'Practice'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const Navbar = () => {
@@ -37,7 +37,9 @@ const Navbar = () => {
     if (link == "Home") history("/")
     if (link == "Affirmations") history("/dashboard")
     if (link == "Blogs") history("/blogs")
-    if(link == "About") history("/about")
+    if (link == "About") history("/about")
+    if (link == "Practice") history("/practice")
+
   };
 
   const handleCloseUserMenu = () => {

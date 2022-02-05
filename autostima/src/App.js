@@ -8,6 +8,7 @@ import Login from './Components/Login/Login';
 import Navbar from './Components/Navbar/Navbar';
 import Signup from './Components/Signup/Signup';
 import About from './Components/About/About';
+import Practice from './Components/Dahsboard/Practice';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/results" element={<Analytics />} />
           <Route path="/about" element={<About />}/>
+          <Route path="/practice" element={<Practice />}/>
 
         </Routes>
       </BrowserRouter>
