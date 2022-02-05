@@ -13,7 +13,14 @@ function About(){
                 <div className={style.ab_head}>
                 <img src={about} />
                 </div>
-                <div className={style.ab_text}>Our team built autostima to help people tackle the issue of lack in self-esteem faced by many around the world.</div>
+                <div className={style.ab_text}>We started with a question and carefully considered it: what do we truly and honestly believe about ourselves?
+                We’d be willing to bet that they were a mix between the two: “I’m a good person, but I could be better. I’m a hard worker, but it hasn’t paid off in the ways I’ve dreamed about. I’m a kind friend, but people take me for granted because I’m unlikeable.”
+                
+                
+                Low self-esteem is something that so many of us deal with. But one thing that we truly believe is that deep down, there will always be a part of yourself, no matter how small, that knows that you are worthy. Repairing our self-confidence is a lifelong and highly individualized journey that takes a heck of a lot of work. We realized that not only students are suffering from problems regarding confidence but also employees or college students are facing obstacles while having a presentation or a significant meeting. 
+                Autostima aims to solve all problems related to self-esteem. The user could read out positive affirmations, can practice public speaking by uploading any .txt or .doc document through our website's features. We provide a machine learning model trained on our body gesture, such as eye contact and shoulder, as well as a speech to text system to ensure full confidence and effect on these affirmations/speeches. 
+                
+                </div>
            
             </div>
             <div className={style.features}>
